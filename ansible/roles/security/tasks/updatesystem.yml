@@ -1,0 +1,10 @@
+---
+- name: Update repositories
+  apt: update_cache=true
+
+- name: Perform a safe-upgrade (apt-get upgrade)
+  apt: upgrade=safe
+
+- name: Perform a dist-upgrade (apt-get dist-upgrade
+  apt: upgrade=dist
+

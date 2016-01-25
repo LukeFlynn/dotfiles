@@ -1,0 +1,13 @@
+minecraft01 ansible_host=192.99.106.177
+minecraft02 ansible_host=192.99.106.178
+[mark2]
+minecraft01
+minecraft02
+
+[java]
+minecraft01
+minecraft02
+
+[security]
+minecraft01
+minecraft02

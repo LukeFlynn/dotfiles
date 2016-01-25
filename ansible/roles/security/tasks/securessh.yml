@@ -1,0 +1,8 @@
+---
+- name: Install SSH keys
+  authorized_key: user=luke key="luke.pub"
+
+- name: Disable password authentication
+  lineinfile: dest=/etc/ssh/sshd_config regexp="^PasswordAuthentication" line="PasswordAuthentication no" state=present
+  notify: Restart ssh
+

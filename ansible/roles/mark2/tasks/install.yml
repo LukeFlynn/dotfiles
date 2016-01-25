@@ -1,0 +1,22 @@
+---
+- name: Clone mark2 repository
+  git: repo=https://github.com/gsand/mark2.git dest=/usr/local/share/mark2 accept_hostkey=yes
+  ignore_errors: yes
+  
+- name: Install mark2 pip requirements
+  pip:
+    requirements=/usr/local/share/mark2/requirements.txt
+
+- name: Link mark2 to an executable
+  file:
+    src: /usr/local/share/mark2/mark2
+    dest: /usr/local/bin/mark2
+    state: link
+
+- name: Create mark2 configuration directory in /etc
+  file: path=/etc/mark2 state=directory
+
+- name: Generate empty mark2 configuration, opting for per-server configuration instead.
+  command: touch /etc/mark2/mark2.properties
+  args:
+    creates: /etc/mark2/mark2.properties

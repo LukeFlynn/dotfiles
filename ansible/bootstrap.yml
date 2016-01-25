@@ -1,0 +1,25 @@
+---
+
+- name: Install mark2
+  hosts: mark2
+  remote_user: luke
+  roles:
+    - mark2
+  tags:
+    - mark2
+
+- name: Install java
+  hosts: java
+  remote_user: luke
+  roles:
+    - java
+  tags:
+    - java
+
+- name: Setup basic security practices
+  hosts: security
+  remote_user: luke
+  roles:
+    - security
+  tags:
+    - security

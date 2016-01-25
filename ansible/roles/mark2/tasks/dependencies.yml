@@ -1,0 +1,13 @@
+---
+# Dependencies
+
+- name: Update the repositories
+  apt: update_cache=true
+
+- name: Install dependencies for mark2
+  apt: pkg={{ item }} state=installed
+  with_items:
+    - python-dev
+    - libssl-dev
+    - python-pip
+    - git
