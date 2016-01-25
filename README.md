@@ -1,6 +1,6 @@
 # my: dotfiles
 
-Daily, I use a Windows 10 (yes, Microsoft) machine as I'm a full time student and sometimes using Linux is a small but noticeable inconvenience. Nevertheless, I feel like it's important to have a centralized place to keep my configs (namely Ansible) for when I do server work, which is nearly every day. For authenticity though, these dotfiles have been written on a F23 machine w/vim using the [Ultimate vimrc](https://github.com/amix/vimrc). 
+Daily, I use a Windows 10 (yes, Microsoft) machine as I'm a full time student and sometimes using Linux (*on the desktop*) is a small but noticeable inconvenience. Nevertheless, I feel like it's important to have a centralized place to keep my configs (namely Ansible) for when I do server work, which is nearly every day. For authenticity though, these dotfiles have been written on a F23 machine w/vim using the [Ultimate vimrc](https://github.com/amix/vimrc). 
 
 ## Credits:
 *The following helped me in some way*:
