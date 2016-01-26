@@ -1,0 +1,17 @@
+---
+- name: Update repositories
+  apt: update_cache=true
+
+- name: Install various useful packages
+  apt: name={{ item }} state=present
+  with_items:
+    - htop
+    - tmux
+    - git
+    - vim
+    - wget
+    - curl
+
+- name: Install Open VM Tools
+  apt: name=open-vm-tools state=present
+  when: ansible_virtualization_type == "VMware"
