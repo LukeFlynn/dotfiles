@@ -1,17 +1,21 @@
 minecraft01 ansible_host=192.99.106.177
 minecraft02 ansible_host=192.99.106.178
+pluto ansible_host=52.23.250.182
+
 [mark2]
-minecraft01
-minecraft02
+#minecraft01
+#minecraft02
 
 [java]
-minecraft01
-minecraft02
+#minecraft01
+#minecraft02
 
 [common]
-minecraft01
-minecraft02
+#minecraft01
+#minecraft02
+pluto
 
-[init-security]
-minecraft01
-minecraft02
+[security-init]
+pluto
+#minecraft01
+#minecraft02
