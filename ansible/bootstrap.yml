@@ -18,11 +18,26 @@
   tags:
     - java
 
-- name: Setup basic security practices
-  hosts: security
+- name: Setup initial basic security practices
+  hosts: security-init
   remote_user: luke
   roles:
-    - security
+    - security-init
   tags:
-    - security
+    - security-init
 
+- name: Common setup files (motd, ssh key, etc)
+  hosts: common
+  remote_user: luke
+  roles:
+    - common
+  tags:
+    - common
+
+- name: System upgrades
+  hosts: upgrades
+  remote_user: luke
+  roles: 
+    - upgrades
+  tags:
+    - upgrades
