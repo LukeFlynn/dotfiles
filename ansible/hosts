@@ -8,6 +8,10 @@ minecraft02
 minecraft01
 minecraft02
 
-[security]
+[common]
+minecraft01
+minecraft02
+
+[init-security]
 minecraft01
 minecraft02

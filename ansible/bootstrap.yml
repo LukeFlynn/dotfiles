@@ -1,4 +1,6 @@
 ---
+- set_fact:
+    do-full-upgrade: false
 
 - name: Install mark2
   hosts: mark2
@@ -23,3 +25,4 @@
     - security
   tags:
     - security
+
