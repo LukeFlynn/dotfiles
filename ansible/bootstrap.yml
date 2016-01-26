@@ -1,7 +1,4 @@
 ---
-- set_fact:
-    do-full-upgrade: false
-
 - name: Install mark2
   hosts: mark2
   remote_user: luke
@@ -36,6 +33,8 @@
 
 - name: System upgrades
   hosts: upgrades
+  vars:
+  - do-full-upgrade: false
   remote_user: luke
   roles: 
     - upgrades
