@@ -9,7 +9,7 @@ Daily, I use a Windows 10 (yes, Microsoft) machine as I'm a full time student an
 
 ## Usage
 
-* See each directory's `README.md` *WIP*
+* See each directory's `README.md`.
 
 ## Additional Information:
 
