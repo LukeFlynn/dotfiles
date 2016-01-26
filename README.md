@@ -7,6 +7,6 @@ Daily, I use a Windows 10 (yes, Microsoft) machine as I'm a full time student an
 
 * [Xe/dotfiles](https://github.com/Xe/dotfiles) - inspiring dotfiles, that's for sure.. her playbooks are very nice, I used those as a guide for building mine (since I'm an ansible novice, and too lazy to read the whole docs).
 
-*During my time using Fedora, I began to love Gnome 3, a DE I have seriously despised in the past, Fedora has done a simply great job making this distro extremely polished, even for a rolling-release.)
+*During my time using Fedora, I began to love Gnome 3, a DE I have seriously despised in the past, Fedora has done a simply great job making this distro extremely polished, even for a rolling-release.*
 
 
