@@ -34,7 +34,7 @@
 - name: System upgrades
   hosts: upgrades
   vars:
-  - do-full-upgrade: false
+  - do-full-upgrade: true
   remote_user: luke
   roles: 
     - upgrades
