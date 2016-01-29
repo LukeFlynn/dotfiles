@@ -10,6 +10,8 @@
 # You must set the key value in bootstrap.yml to true for a dist-upgrade.
 - name: Perform a full-upgrade (Debian based systems)
   apt: upgrade=full
+  tags:
+    - full
 
 - name: Upgrade packages (Fedora based systems (DNF))
   dnf: name=* state=lastest

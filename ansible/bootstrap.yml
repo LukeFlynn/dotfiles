@@ -39,4 +39,5 @@
   roles: 
     - upgrades
   tags:
+    - full
     - upgrades

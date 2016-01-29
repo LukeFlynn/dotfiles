@@ -11,6 +11,7 @@
     - vim
     - wget
     - curl
+    - iptables-persistent
 
 - name: Install Open VM Tools
   apt: name=open-vm-tools state=present
