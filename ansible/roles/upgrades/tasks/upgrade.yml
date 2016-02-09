@@ -10,6 +10,7 @@
 # You must set the key value in bootstrap.yml to true for a dist-upgrade.
 - name: Perform a full-upgrade (Debian based systems)
   apt: upgrade=full
+  when: ansible_os_family == "Debian"
   tags:
     - full
 
