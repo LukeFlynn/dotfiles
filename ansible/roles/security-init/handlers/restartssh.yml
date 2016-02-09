@@ -1,3 +1,6 @@
 ---
 - name: Restart ssh
   service: name=ssh state=restarted
+- name: Restart RedHat sshd
+  service: name=sshd state=restarted
+  # Probably a more elegant way to do this... oh well.
