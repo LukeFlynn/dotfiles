@@ -1,6 +1,7 @@
 ---
 - name: Update repositories
   apt: update_cache=true
+  when: ansible_os_family == "Debian"
 
 - name: Install useful stuff (Debian)
   apt: name={{ item }} state=present
