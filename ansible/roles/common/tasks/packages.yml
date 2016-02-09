@@ -7,6 +7,8 @@
   with_items:
     - htop
     - tmux
+    - zip
+    - unzip
     - git
     - vim
     - wget
