@@ -2,7 +2,7 @@
 - name: Update repositories
   apt: update_cache=true
 
-- name: Install various useful packages
+- name: Install useful stuff (Debian)
   apt: name={{ item }} state=present
   with_items:
     - htop
@@ -10,10 +10,27 @@
     - zip
     - unzip
     - git
+    - zsh
     - vim
     - wget
     - curl
     - iptables-persistent
+  when: ansible_os_family == "Debian"
+  
+- name: Install useful stuff (RedHat)
+  yum: name={{ item }} state=present
+  with_items:
+    - htop
+    - tmux
+    - zip
+    - unzip
+    - git
+    - wget
+    - vim
+    - tar
+    - zsh
+    - curl
+  when: ansible_os_family == "RedHat"
 
 - name: Install Open VM Tools
   apt: name=open-vm-tools state=present
