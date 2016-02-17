@@ -1,0 +1,33 @@
+minecraft01 ansible_ssh_host=192.99.106.177
+minecraft02 ansible_ssh_host=192.99.106.178
+mysql ansible_ssh_host=192.99.106.179
+web ansible_ssh_host=192.99.106.181
+pluto ansible_ssh_host=52.23.250.182
+gitlab ansible_ssh_host=198.50.196.12
+
+[mark2]
+minecraft01
+minecraft02
+
+[java]
+minecraft01
+minecraft02
+
+[common]
+minecraft01
+minecraft02
+web
+mysql
+
+[security-init]
+minecraft01
+minecraft02
+mysql
+web
+
+[upgrades]
+minecraft01
+minecraft02
+mysql
+web
+

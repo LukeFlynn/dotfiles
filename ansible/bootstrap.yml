@@ -30,6 +30,7 @@
     - common
   tags:
     - common
+    - motd
 
 - name: System upgrades
   hosts: upgrades

@@ -1,6 +1,7 @@
 ---
 - name: Update repositories
   apt: update_cache=true
+  when: ansible_os_family == "Debian"
 
 - name: Install useful stuff (Debian)
   apt: name={{ item }} state=present
@@ -20,8 +21,9 @@
 - name: Install useful stuff (RedHat)
   yum: name={{ item }} state=present
   with_items:
-    - htop
+    - epel-release
     - tmux
+    - htop
     - zip
     - unzip
     - git
@@ -34,4 +36,7 @@
 
 - name: Install Open VM Tools
   apt: name=open-vm-tools state=present
-  when: ansible_virtualization_type == "VMware"
+  when: (ansible_virtualization_type == "VMware" and ansible_os_family == "Debian")
+- name: Install Open VM Tools (RedHat)
+  yum: name=open-vm-tools state=present
+  when: (ansible_virtualization_type == "VMware" and ansible_os_family == "RedHat")

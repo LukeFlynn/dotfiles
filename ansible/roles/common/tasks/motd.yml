@@ -1,3 +1,5 @@
 ---
 - name: Install system MOTD
   template: src=motd.j2 dest=/etc/motd
+  tags:
+    - motd
