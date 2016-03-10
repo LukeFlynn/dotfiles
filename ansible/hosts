@@ -4,15 +4,11 @@ mysql ansible_ssh_host=10.0.0.190
 web ansible_ssh_host=10.0.0.195
 
 [mark2]
-<<<<<<< HEAD
 
 [java]
-=======
-#minecraft01
 
 [java]
 #minecraft01
->>>>>>> 07c043f9f9d0c51507b3bcd6ac0f4186b2323c5f
 
 [common]
 minecraft01
