@@ -2,6 +2,10 @@
 - name: Update repos & install fail2ban
   apt: name=fail2ban state=present update_cache=yes
   when: ansible_os_family == "Debian"
+- name: Install EPEL for fail2ban
+  yum: name=epel-release state=present
+  when: ansible_os_family == "RedHat"
 - name: Install fail2ban (CentOS/RHEL)
   yum: name=fail2ban state=present
   when: ansible_os_family == "RedHat"
+

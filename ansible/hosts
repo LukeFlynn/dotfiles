@@ -5,10 +5,10 @@ sensu ansible_ssh_host=192.99.106.178
 web ansible_ssh_host=192.99.106.179
 
 [mark2]
-minecraft01
+#minecraft01
 
 [java]
-minecraft01
+#minecraft01
 
 [common]
 minecraft01
