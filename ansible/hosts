@@ -1,33 +1,27 @@
-ldap01 ansible_ssh_host=192.99.251.112
-minecraft01 ansible_ssh_host=192.99.251.113
-mysql ansible_ssh_host=192.99.106.177
-sensu ansible_ssh_host=192.99.106.178
-web ansible_ssh_host=192.99.106.179
+ipa01 ansible_ssh_host=10.0.0.193
+minecraft01 ansible_ssh_host=10.0.0.194
+mysql ansible_ssh_host=10.0.0.190
+web ansible_ssh_host=10.0.0.195
 
 [mark2]
-minecraft01
 
 [java]
-minecraft01
 
 [common]
 minecraft01
-ldap01
 mysql
-sensu
+ipa01
 web
 
 [security-init]
 minecraft01
-ldap01
 mysql
-sensu
+ipa01
 web
 
 [upgrades]
 minecraft01
-ldap01
+ipa01
 mysql
-sensu
 web
 
