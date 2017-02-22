@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/lukeflynn/code/cuberous/Mastermind/build'
+let g:netrw_dirhist_2='/Users/lukeflynn/code/BukkitTest/plugins/PermissionsEx'
+let g:netrw_dirhist_3='/Users/lukeflynn/.vim'
