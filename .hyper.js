@@ -19,7 +19,7 @@ module.exports = {
     termCSS: '',
     windowSize: [873, 678],
     showHamburgerMenu: '',
-    showWindowControls: '',
+    showWindowControls: 'true',
     padding: '9px 8px 2px 8px',
     colors: {
       black: '#000000',
@@ -49,8 +49,9 @@ module.exports = {
   plugins: [
     'hypersixteen',
     'hyperborder',
-    'hyper-autohide-tabs',
-    'hyper-tabs-enhanced'
+    'hyper-blink',
   ],
-  localPlugins: []
+  localPlugins: [
+    'hyper-baralways',
+  ]
 };

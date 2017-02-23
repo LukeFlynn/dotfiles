@@ -1,0 +1,1053 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--production' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData hyper-tabs-enhanced
+20 silly mapToRegistry name hyper-tabs-enhanced
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'hyper-tabs-enhanced',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'hyper-tabs-enhanced',
+23 silly mapToRegistry   name: 'hyper-tabs-enhanced',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/hyper-tabs-enhanced
+25 verbose request uri https://registry.npmjs.org/hyper-tabs-enhanced
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 1:55:23 PM
+28 verbose request id 627fdc945b5b8fe4
+29 verbose etag W/"58ab074d-7808"
+30 verbose lastModified Mon, 20 Feb 2017 15:12:13 GMT
+31 http request GET https://registry.npmjs.org/hyper-tabs-enhanced
+32 http 304 https://registry.npmjs.org/hyper-tabs-enhanced
+33 verbose headers { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   etag: 'W/"58ab074d-7808"',
+33 verbose headers   age: '0',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-ord1741-ORD',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1487789724.048465,VS0,VE35',
+33 verbose headers   vary: 'Accept-Encoding' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     etag: 'W/"58ab074d-7808"',
+34 silly get     age: '0',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-ord1741-ORD',
+34 silly get     'x-cache': 'MISS',
+34 silly get     'x-cache-hits': '0',
+34 silly get     'x-timer': 'S1487789724.048465,VS0,VE35',
+34 silly get     vary: 'Accept-Encoding' } ]
+35 verbose etag https://registry.npmjs.org/hyper-tabs-enhanced from cache
+36 verbose get saving hyper-tabs-enhanced to /Users/lukeflynn/.npm/registry.npmjs.org/hyper-tabs-enhanced/.cache.json
+37 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+38 silly resolveWithNewModule hyper-tabs-enhanced@0.4.0 checking installable status
+39 silly cache add args [ 'hyper-tabs-enhanced@latest', null ]
+40 verbose cache add spec hyper-tabs-enhanced@latest
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'hyper-tabs-enhanced@latest',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'hyper-tabs-enhanced',
+41 silly cache add   name: 'hyper-tabs-enhanced',
+41 silly cache add   rawSpec: 'latest',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed hyper-tabs-enhanced@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for hyper-tabs-enhanced
+44 info addNameTag [ 'hyper-tabs-enhanced', 'latest' ]
+45 silly mapToRegistry name hyper-tabs-enhanced
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'hyper-tabs-enhanced',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'hyper-tabs-enhanced',
+48 silly mapToRegistry   name: 'hyper-tabs-enhanced',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/hyper-tabs-enhanced
+50 verbose addNameTag registry:https://registry.npmjs.org/hyper-tabs-enhanced not in flight; fetching
+51 verbose get https://registry.npmjs.org/hyper-tabs-enhanced not expired, no request
+52 silly addNameTag next cb for hyper-tabs-enhanced with tag latest
+53 silly addNamed hyper-tabs-enhanced@0.4.0
+54 verbose addNamed "0.4.0" is a plain semver version for hyper-tabs-enhanced
+55 silly cache afterAdd hyper-tabs-enhanced@0.4.0
+56 verbose afterAdd /Users/lukeflynn/.npm/hyper-tabs-enhanced/0.4.0/package/package.json not in flight; writing
+57 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+58 verbose afterAdd /Users/lukeflynn/.npm/hyper-tabs-enhanced/0.4.0/package/package.json written
+59 silly fetchNamedPackageData color
+60 silly mapToRegistry name color
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'color',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   escapedName: 'color',
+63 silly mapToRegistry   name: 'color',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/color
+65 verbose request uri https://registry.npmjs.org/color
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 1:55:24 PM
+68 verbose etag W/"58ab7df7-8d1c"
+69 verbose lastModified Mon, 20 Feb 2017 23:38:31 GMT
+70 http request GET https://registry.npmjs.org/color
+71 http 304 https://registry.npmjs.org/color
+72 verbose headers { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+72 verbose headers   via: '1.1 varnish',
+72 verbose headers   'cache-control': 'max-age=300',
+72 verbose headers   etag: 'W/"58ab7df7-8d1c"',
+72 verbose headers   age: '27',
+72 verbose headers   connection: 'keep-alive',
+72 verbose headers   'x-served-by': 'cache-ord1741-ORD',
+72 verbose headers   'x-cache': 'HIT',
+72 verbose headers   'x-cache-hits': '1',
+72 verbose headers   'x-timer': 'S1487789724.158553,VS0,VE0',
+72 verbose headers   vary: 'Accept-Encoding' }
+73 silly get cb [ 304,
+73 silly get   { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+73 silly get     via: '1.1 varnish',
+73 silly get     'cache-control': 'max-age=300',
+73 silly get     etag: 'W/"58ab7df7-8d1c"',
+73 silly get     age: '27',
+73 silly get     connection: 'keep-alive',
+73 silly get     'x-served-by': 'cache-ord1741-ORD',
+73 silly get     'x-cache': 'HIT',
+73 silly get     'x-cache-hits': '1',
+73 silly get     'x-timer': 'S1487789724.158553,VS0,VE0',
+73 silly get     vary: 'Accept-Encoding' } ]
+74 verbose etag https://registry.npmjs.org/color from cache
+75 verbose get saving color to /Users/lukeflynn/.npm/registry.npmjs.org/color/.cache.json
+76 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+77 silly resolveWithNewModule color@1.0.3 checking installable status
+78 silly cache add args [ 'color@^1.0.3', null ]
+79 verbose cache add spec color@^1.0.3
+80 silly cache add parsed spec Result {
+80 silly cache add   raw: 'color@^1.0.3',
+80 silly cache add   scope: null,
+80 silly cache add   escapedName: 'color',
+80 silly cache add   name: 'color',
+80 silly cache add   rawSpec: '^1.0.3',
+80 silly cache add   spec: '>=1.0.3 <2.0.0',
+80 silly cache add   type: 'range' }
+81 silly addNamed color@>=1.0.3 <2.0.0
+82 verbose addNamed ">=1.0.3 <2.0.0" is a valid semver range for color
+83 silly addNameRange { name: 'color', range: '>=1.0.3 <2.0.0', hasData: false }
+84 silly mapToRegistry name color
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry data Result {
+87 silly mapToRegistry   raw: 'color',
+87 silly mapToRegistry   scope: null,
+87 silly mapToRegistry   escapedName: 'color',
+87 silly mapToRegistry   name: 'color',
+87 silly mapToRegistry   rawSpec: '',
+87 silly mapToRegistry   spec: 'latest',
+87 silly mapToRegistry   type: 'tag' }
+88 silly mapToRegistry uri https://registry.npmjs.org/color
+89 verbose addNameRange registry:https://registry.npmjs.org/color not in flight; fetching
+90 verbose get https://registry.npmjs.org/color not expired, no request
+91 silly addNameRange number 2 { name: 'color', range: '>=1.0.3 <2.0.0', hasData: true }
+92 silly addNameRange versions [ 'color',
+92 silly addNameRange   [ '0.1.0',
+92 silly addNameRange     '0.1.1',
+92 silly addNameRange     '0.1.2',
+92 silly addNameRange     '0.1.3',
+92 silly addNameRange     '0.2.0',
+92 silly addNameRange     '0.3.0',
+92 silly addNameRange     '0.4.0',
+92 silly addNameRange     '0.4.1',
+92 silly addNameRange     '0.4.2',
+92 silly addNameRange     '0.4.3',
+92 silly addNameRange     '0.4.4',
+92 silly addNameRange     '0.5.0',
+92 silly addNameRange     '0.6.0',
+92 silly addNameRange     '0.7.0',
+92 silly addNameRange     '0.7.1',
+92 silly addNameRange     '0.7.2',
+92 silly addNameRange     '0.7.3',
+92 silly addNameRange     '0.8.0',
+92 silly addNameRange     '0.9.0',
+92 silly addNameRange     '0.10.0',
+92 silly addNameRange     '0.10.1',
+92 silly addNameRange     '0.11.0',
+92 silly addNameRange     '0.11.1',
+92 silly addNameRange     '0.11.2',
+92 silly addNameRange     '0.11.3',
+92 silly addNameRange     '0.11.4',
+92 silly addNameRange     '1.0.0',
+92 silly addNameRange     '1.0.1',
+92 silly addNameRange     '1.0.2',
+92 silly addNameRange     '1.0.3' ] ]
+93 silly addNamed color@1.0.3
+94 verbose addNamed "1.0.3" is a plain semver version for color
+95 silly cache afterAdd color@1.0.3
+96 verbose afterAdd /Users/lukeflynn/.npm/color/1.0.3/package/package.json not in flight; writing
+97 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+98 verbose afterAdd /Users/lukeflynn/.npm/color/1.0.3/package/package.json written
+99 silly fetchNamedPackageData color-convert
+100 silly mapToRegistry name color-convert
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry data Result {
+103 silly mapToRegistry   raw: 'color-convert',
+103 silly mapToRegistry   scope: null,
+103 silly mapToRegistry   escapedName: 'color-convert',
+103 silly mapToRegistry   name: 'color-convert',
+103 silly mapToRegistry   rawSpec: '',
+103 silly mapToRegistry   spec: 'latest',
+103 silly mapToRegistry   type: 'tag' }
+104 silly mapToRegistry uri https://registry.npmjs.org/color-convert
+105 silly fetchNamedPackageData color-string
+106 silly mapToRegistry name color-string
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry data Result {
+109 silly mapToRegistry   raw: 'color-string',
+109 silly mapToRegistry   scope: null,
+109 silly mapToRegistry   escapedName: 'color-string',
+109 silly mapToRegistry   name: 'color-string',
+109 silly mapToRegistry   rawSpec: '',
+109 silly mapToRegistry   spec: 'latest',
+109 silly mapToRegistry   type: 'tag' }
+110 silly mapToRegistry uri https://registry.npmjs.org/color-string
+111 verbose request uri https://registry.npmjs.org/color-string
+112 verbose request no auth needed
+113 info attempt registry request try #1 at 1:55:24 PM
+114 verbose etag W/"5846f83b-642f"
+115 verbose lastModified Tue, 06 Dec 2016 17:41:15 GMT
+116 http request GET https://registry.npmjs.org/color-string
+117 verbose request uri https://registry.npmjs.org/color-convert
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 1:55:24 PM
+120 verbose etag W/"587e7b67-a0b5"
+121 verbose lastModified Tue, 17 Jan 2017 20:15:35 GMT
+122 http request GET https://registry.npmjs.org/color-convert
+123 http 304 https://registry.npmjs.org/color-string
+124 verbose headers { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+124 verbose headers   via: '1.1 varnish',
+124 verbose headers   'cache-control': 'max-age=300',
+124 verbose headers   etag: 'W/"5846f83b-642f"',
+124 verbose headers   age: '33',
+124 verbose headers   connection: 'keep-alive',
+124 verbose headers   'x-served-by': 'cache-ord1741-ORD',
+124 verbose headers   'x-cache': 'HIT',
+124 verbose headers   'x-cache-hits': '1',
+124 verbose headers   'x-timer': 'S1487789724.217006,VS0,VE0',
+124 verbose headers   vary: 'Accept-Encoding' }
+125 silly get cb [ 304,
+125 silly get   { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+125 silly get     via: '1.1 varnish',
+125 silly get     'cache-control': 'max-age=300',
+125 silly get     etag: 'W/"5846f83b-642f"',
+125 silly get     age: '33',
+125 silly get     connection: 'keep-alive',
+125 silly get     'x-served-by': 'cache-ord1741-ORD',
+125 silly get     'x-cache': 'HIT',
+125 silly get     'x-cache-hits': '1',
+125 silly get     'x-timer': 'S1487789724.217006,VS0,VE0',
+125 silly get     vary: 'Accept-Encoding' } ]
+126 verbose etag https://registry.npmjs.org/color-string from cache
+127 verbose get saving color-string to /Users/lukeflynn/.npm/registry.npmjs.org/color-string/.cache.json
+128 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+129 silly resolveWithNewModule color-string@1.4.0 checking installable status
+130 silly cache add args [ 'color-string@^1.4.0', null ]
+131 verbose cache add spec color-string@^1.4.0
+132 silly cache add parsed spec Result {
+132 silly cache add   raw: 'color-string@^1.4.0',
+132 silly cache add   scope: null,
+132 silly cache add   escapedName: 'color-string',
+132 silly cache add   name: 'color-string',
+132 silly cache add   rawSpec: '^1.4.0',
+132 silly cache add   spec: '>=1.4.0 <2.0.0',
+132 silly cache add   type: 'range' }
+133 silly addNamed color-string@>=1.4.0 <2.0.0
+134 verbose addNamed ">=1.4.0 <2.0.0" is a valid semver range for color-string
+135 silly addNameRange { name: 'color-string', range: '>=1.4.0 <2.0.0', hasData: false }
+136 silly mapToRegistry name color-string
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry data Result {
+139 silly mapToRegistry   raw: 'color-string',
+139 silly mapToRegistry   scope: null,
+139 silly mapToRegistry   escapedName: 'color-string',
+139 silly mapToRegistry   name: 'color-string',
+139 silly mapToRegistry   rawSpec: '',
+139 silly mapToRegistry   spec: 'latest',
+139 silly mapToRegistry   type: 'tag' }
+140 silly mapToRegistry uri https://registry.npmjs.org/color-string
+141 verbose addNameRange registry:https://registry.npmjs.org/color-string not in flight; fetching
+142 verbose get https://registry.npmjs.org/color-string not expired, no request
+143 silly addNameRange number 2 { name: 'color-string', range: '>=1.4.0 <2.0.0', hasData: true }
+144 silly addNameRange versions [ 'color-string',
+144 silly addNameRange   [ '0.1.0',
+144 silly addNameRange     '0.1.1',
+144 silly addNameRange     '0.1.2',
+144 silly addNameRange     '0.1.3',
+144 silly addNameRange     '0.2.0',
+144 silly addNameRange     '0.2.1',
+144 silly addNameRange     '0.2.2',
+144 silly addNameRange     '0.2.3',
+144 silly addNameRange     '0.2.4',
+144 silly addNameRange     '0.3.0',
+144 silly addNameRange     '0.4.0',
+144 silly addNameRange     '1.0.0',
+144 silly addNameRange     '1.0.1',
+144 silly addNameRange     '1.1.0',
+144 silly addNameRange     '1.1.1',
+144 silly addNameRange     '1.2.0',
+144 silly addNameRange     '1.3.0',
+144 silly addNameRange     '1.3.1',
+144 silly addNameRange     '1.4.0' ] ]
+145 silly addNamed color-string@1.4.0
+146 verbose addNamed "1.4.0" is a plain semver version for color-string
+147 silly cache afterAdd color-string@1.4.0
+148 verbose afterAdd /Users/lukeflynn/.npm/color-string/1.4.0/package/package.json not in flight; writing
+149 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+150 verbose afterAdd /Users/lukeflynn/.npm/color-string/1.4.0/package/package.json written
+151 http 304 https://registry.npmjs.org/color-convert
+152 verbose headers { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+152 verbose headers   via: '1.1 varnish',
+152 verbose headers   'cache-control': 'max-age=300',
+152 verbose headers   etag: 'W/"587e7b67-a0b5"',
+152 verbose headers   age: '83',
+152 verbose headers   connection: 'keep-alive',
+152 verbose headers   'x-served-by': 'cache-ord1735-ORD',
+152 verbose headers   'x-cache': 'HIT',
+152 verbose headers   'x-cache-hits': '3',
+152 verbose headers   'x-timer': 'S1487789724.272933,VS0,VE0',
+152 verbose headers   vary: 'Accept-Encoding' }
+153 silly get cb [ 304,
+153 silly get   { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+153 silly get     via: '1.1 varnish',
+153 silly get     'cache-control': 'max-age=300',
+153 silly get     etag: 'W/"587e7b67-a0b5"',
+153 silly get     age: '83',
+153 silly get     connection: 'keep-alive',
+153 silly get     'x-served-by': 'cache-ord1735-ORD',
+153 silly get     'x-cache': 'HIT',
+153 silly get     'x-cache-hits': '3',
+153 silly get     'x-timer': 'S1487789724.272933,VS0,VE0',
+153 silly get     vary: 'Accept-Encoding' } ]
+154 verbose etag https://registry.npmjs.org/color-convert from cache
+155 verbose get saving color-convert to /Users/lukeflynn/.npm/registry.npmjs.org/color-convert/.cache.json
+156 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+157 silly resolveWithNewModule color-convert@1.9.0 checking installable status
+158 silly cache add args [ 'color-convert@^1.8.2', null ]
+159 verbose cache add spec color-convert@^1.8.2
+160 silly cache add parsed spec Result {
+160 silly cache add   raw: 'color-convert@^1.8.2',
+160 silly cache add   scope: null,
+160 silly cache add   escapedName: 'color-convert',
+160 silly cache add   name: 'color-convert',
+160 silly cache add   rawSpec: '^1.8.2',
+160 silly cache add   spec: '>=1.8.2 <2.0.0',
+160 silly cache add   type: 'range' }
+161 silly addNamed color-convert@>=1.8.2 <2.0.0
+162 verbose addNamed ">=1.8.2 <2.0.0" is a valid semver range for color-convert
+163 silly addNameRange { name: 'color-convert',
+163 silly addNameRange   range: '>=1.8.2 <2.0.0',
+163 silly addNameRange   hasData: false }
+164 silly mapToRegistry name color-convert
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry data Result {
+167 silly mapToRegistry   raw: 'color-convert',
+167 silly mapToRegistry   scope: null,
+167 silly mapToRegistry   escapedName: 'color-convert',
+167 silly mapToRegistry   name: 'color-convert',
+167 silly mapToRegistry   rawSpec: '',
+167 silly mapToRegistry   spec: 'latest',
+167 silly mapToRegistry   type: 'tag' }
+168 silly mapToRegistry uri https://registry.npmjs.org/color-convert
+169 verbose addNameRange registry:https://registry.npmjs.org/color-convert not in flight; fetching
+170 verbose get https://registry.npmjs.org/color-convert not expired, no request
+171 silly addNameRange number 2 { name: 'color-convert', range: '>=1.8.2 <2.0.0', hasData: true }
+172 silly addNameRange versions [ 'color-convert',
+172 silly addNameRange   [ '0.1.0',
+172 silly addNameRange     '0.2.0',
+172 silly addNameRange     '0.2.1',
+172 silly addNameRange     '0.3.0',
+172 silly addNameRange     '0.3.1',
+172 silly addNameRange     '0.3.4',
+172 silly addNameRange     '0.4.0',
+172 silly addNameRange     '0.5.0',
+172 silly addNameRange     '0.5.1',
+172 silly addNameRange     '0.5.2',
+172 silly addNameRange     '0.5.3',
+172 silly addNameRange     '0.6.0',
+172 silly addNameRange     '0.7.0',
+172 silly addNameRange     '1.0.0',
+172 silly addNameRange     '1.1.0',
+172 silly addNameRange     '1.1.1',
+172 silly addNameRange     '1.1.2',
+172 silly addNameRange     '1.2.0',
+172 silly addNameRange     '1.2.1',
+172 silly addNameRange     '1.2.2',
+172 silly addNameRange     '1.3.0',
+172 silly addNameRange     '1.3.1',
+172 silly addNameRange     '1.4.0',
+172 silly addNameRange     '1.5.0',
+172 silly addNameRange     '1.6.0',
+172 silly addNameRange     '1.7.0',
+172 silly addNameRange     '1.8.0',
+172 silly addNameRange     '1.8.1',
+172 silly addNameRange     '1.8.2',
+172 silly addNameRange     '1.9.0' ] ]
+173 silly addNamed color-convert@1.9.0
+174 verbose addNamed "1.9.0" is a plain semver version for color-convert
+175 silly cache afterAdd color-convert@1.9.0
+176 verbose afterAdd /Users/lukeflynn/.npm/color-convert/1.9.0/package/package.json not in flight; writing
+177 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+178 verbose afterAdd /Users/lukeflynn/.npm/color-convert/1.9.0/package/package.json written
+179 silly fetchNamedPackageData color-name
+180 silly mapToRegistry name color-name
+181 silly mapToRegistry using default registry
+182 silly mapToRegistry registry https://registry.npmjs.org/
+183 silly mapToRegistry data Result {
+183 silly mapToRegistry   raw: 'color-name',
+183 silly mapToRegistry   scope: null,
+183 silly mapToRegistry   escapedName: 'color-name',
+183 silly mapToRegistry   name: 'color-name',
+183 silly mapToRegistry   rawSpec: '',
+183 silly mapToRegistry   spec: 'latest',
+183 silly mapToRegistry   type: 'tag' }
+184 silly mapToRegistry uri https://registry.npmjs.org/color-name
+185 verbose request uri https://registry.npmjs.org/color-name
+186 verbose request no auth needed
+187 info attempt registry request try #1 at 1:55:24 PM
+188 verbose etag W/"567b52f0-1aa4"
+189 verbose lastModified Thu, 24 Dec 2015 02:05:36 GMT
+190 http request GET https://registry.npmjs.org/color-name
+191 http 304 https://registry.npmjs.org/color-name
+192 verbose headers { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+192 verbose headers   via: '1.1 varnish',
+192 verbose headers   'cache-control': 'max-age=300',
+192 verbose headers   etag: 'W/"567b52f0-1aa4"',
+192 verbose headers   age: '32',
+192 verbose headers   connection: 'keep-alive',
+192 verbose headers   'x-served-by': 'cache-ord1741-ORD',
+192 verbose headers   'x-cache': 'HIT',
+192 verbose headers   'x-cache-hits': '1',
+192 verbose headers   'x-timer': 'S1487789724.322224,VS0,VE1',
+192 verbose headers   vary: 'Accept-Encoding' }
+193 silly get cb [ 304,
+193 silly get   { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+193 silly get     via: '1.1 varnish',
+193 silly get     'cache-control': 'max-age=300',
+193 silly get     etag: 'W/"567b52f0-1aa4"',
+193 silly get     age: '32',
+193 silly get     connection: 'keep-alive',
+193 silly get     'x-served-by': 'cache-ord1741-ORD',
+193 silly get     'x-cache': 'HIT',
+193 silly get     'x-cache-hits': '1',
+193 silly get     'x-timer': 'S1487789724.322224,VS0,VE1',
+193 silly get     vary: 'Accept-Encoding' } ]
+194 verbose etag https://registry.npmjs.org/color-name from cache
+195 verbose get saving color-name to /Users/lukeflynn/.npm/registry.npmjs.org/color-name/.cache.json
+196 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+197 silly resolveWithNewModule color-name@1.1.1 checking installable status
+198 silly cache add args [ 'color-name@^1.1.1', null ]
+199 verbose cache add spec color-name@^1.1.1
+200 silly cache add parsed spec Result {
+200 silly cache add   raw: 'color-name@^1.1.1',
+200 silly cache add   scope: null,
+200 silly cache add   escapedName: 'color-name',
+200 silly cache add   name: 'color-name',
+200 silly cache add   rawSpec: '^1.1.1',
+200 silly cache add   spec: '>=1.1.1 <2.0.0',
+200 silly cache add   type: 'range' }
+201 silly addNamed color-name@>=1.1.1 <2.0.0
+202 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for color-name
+203 silly addNameRange { name: 'color-name', range: '>=1.1.1 <2.0.0', hasData: false }
+204 silly mapToRegistry name color-name
+205 silly mapToRegistry using default registry
+206 silly mapToRegistry registry https://registry.npmjs.org/
+207 silly mapToRegistry data Result {
+207 silly mapToRegistry   raw: 'color-name',
+207 silly mapToRegistry   scope: null,
+207 silly mapToRegistry   escapedName: 'color-name',
+207 silly mapToRegistry   name: 'color-name',
+207 silly mapToRegistry   rawSpec: '',
+207 silly mapToRegistry   spec: 'latest',
+207 silly mapToRegistry   type: 'tag' }
+208 silly mapToRegistry uri https://registry.npmjs.org/color-name
+209 verbose addNameRange registry:https://registry.npmjs.org/color-name not in flight; fetching
+210 verbose get https://registry.npmjs.org/color-name not expired, no request
+211 silly addNameRange number 2 { name: 'color-name', range: '>=1.1.1 <2.0.0', hasData: true }
+212 silly addNameRange versions [ 'color-name',
+212 silly addNameRange   [ '0.0.1', '0.0.2', '1.0.0', '1.0.1', '1.1.0', '1.1.1' ] ]
+213 silly addNamed color-name@1.1.1
+214 verbose addNamed "1.1.1" is a plain semver version for color-name
+215 silly cache afterAdd color-name@1.1.1
+216 verbose afterAdd /Users/lukeflynn/.npm/color-name/1.1.1/package/package.json not in flight; writing
+217 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+218 verbose afterAdd /Users/lukeflynn/.npm/color-name/1.1.1/package/package.json written
+219 silly fetchNamedPackageData simple-swizzle
+220 silly mapToRegistry name simple-swizzle
+221 silly mapToRegistry using default registry
+222 silly mapToRegistry registry https://registry.npmjs.org/
+223 silly mapToRegistry data Result {
+223 silly mapToRegistry   raw: 'simple-swizzle',
+223 silly mapToRegistry   scope: null,
+223 silly mapToRegistry   escapedName: 'simple-swizzle',
+223 silly mapToRegistry   name: 'simple-swizzle',
+223 silly mapToRegistry   rawSpec: '',
+223 silly mapToRegistry   spec: 'latest',
+223 silly mapToRegistry   type: 'tag' }
+224 silly mapToRegistry uri https://registry.npmjs.org/simple-swizzle
+225 verbose request uri https://registry.npmjs.org/simple-swizzle
+226 verbose request no auth needed
+227 info attempt registry request try #1 at 1:55:24 PM
+228 verbose etag W/"582bc535-1c5b"
+229 verbose lastModified Wed, 16 Nov 2016 02:32:21 GMT
+230 http request GET https://registry.npmjs.org/simple-swizzle
+231 http 304 https://registry.npmjs.org/simple-swizzle
+232 verbose headers { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+232 verbose headers   via: '1.1 varnish',
+232 verbose headers   'cache-control': 'max-age=300',
+232 verbose headers   etag: 'W/"582bc535-1c5b"',
+232 verbose headers   age: '0',
+232 verbose headers   connection: 'keep-alive',
+232 verbose headers   'x-served-by': 'cache-ord1735-ORD',
+232 verbose headers   'x-cache': 'HIT',
+232 verbose headers   'x-cache-hits': '1',
+232 verbose headers   'x-timer': 'S1487789724.364243,VS0,VE19',
+232 verbose headers   vary: 'Accept-Encoding' }
+233 silly get cb [ 304,
+233 silly get   { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+233 silly get     via: '1.1 varnish',
+233 silly get     'cache-control': 'max-age=300',
+233 silly get     etag: 'W/"582bc535-1c5b"',
+233 silly get     age: '0',
+233 silly get     connection: 'keep-alive',
+233 silly get     'x-served-by': 'cache-ord1735-ORD',
+233 silly get     'x-cache': 'HIT',
+233 silly get     'x-cache-hits': '1',
+233 silly get     'x-timer': 'S1487789724.364243,VS0,VE19',
+233 silly get     vary: 'Accept-Encoding' } ]
+234 verbose etag https://registry.npmjs.org/simple-swizzle from cache
+235 verbose get saving simple-swizzle to /Users/lukeflynn/.npm/registry.npmjs.org/simple-swizzle/.cache.json
+236 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+237 silly resolveWithNewModule simple-swizzle@0.2.2 checking installable status
+238 silly cache add args [ 'simple-swizzle@^0.2.2', null ]
+239 verbose cache add spec simple-swizzle@^0.2.2
+240 silly cache add parsed spec Result {
+240 silly cache add   raw: 'simple-swizzle@^0.2.2',
+240 silly cache add   scope: null,
+240 silly cache add   escapedName: 'simple-swizzle',
+240 silly cache add   name: 'simple-swizzle',
+240 silly cache add   rawSpec: '^0.2.2',
+240 silly cache add   spec: '>=0.2.2 <0.3.0',
+240 silly cache add   type: 'range' }
+241 silly addNamed simple-swizzle@>=0.2.2 <0.3.0
+242 verbose addNamed ">=0.2.2 <0.3.0" is a valid semver range for simple-swizzle
+243 silly addNameRange { name: 'simple-swizzle',
+243 silly addNameRange   range: '>=0.2.2 <0.3.0',
+243 silly addNameRange   hasData: false }
+244 silly mapToRegistry name simple-swizzle
+245 silly mapToRegistry using default registry
+246 silly mapToRegistry registry https://registry.npmjs.org/
+247 silly mapToRegistry data Result {
+247 silly mapToRegistry   raw: 'simple-swizzle',
+247 silly mapToRegistry   scope: null,
+247 silly mapToRegistry   escapedName: 'simple-swizzle',
+247 silly mapToRegistry   name: 'simple-swizzle',
+247 silly mapToRegistry   rawSpec: '',
+247 silly mapToRegistry   spec: 'latest',
+247 silly mapToRegistry   type: 'tag' }
+248 silly mapToRegistry uri https://registry.npmjs.org/simple-swizzle
+249 verbose addNameRange registry:https://registry.npmjs.org/simple-swizzle not in flight; fetching
+250 verbose get https://registry.npmjs.org/simple-swizzle not expired, no request
+251 silly addNameRange number 2 { name: 'simple-swizzle',
+251 silly addNameRange   range: '>=0.2.2 <0.3.0',
+251 silly addNameRange   hasData: true }
+252 silly addNameRange versions [ 'simple-swizzle', [ '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
+253 silly addNamed simple-swizzle@0.2.2
+254 verbose addNamed "0.2.2" is a plain semver version for simple-swizzle
+255 silly cache afterAdd simple-swizzle@0.2.2
+256 verbose afterAdd /Users/lukeflynn/.npm/simple-swizzle/0.2.2/package/package.json not in flight; writing
+257 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+258 verbose afterAdd /Users/lukeflynn/.npm/simple-swizzle/0.2.2/package/package.json written
+259 silly fetchNamedPackageData is-arrayish
+260 silly mapToRegistry name is-arrayish
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry https://registry.npmjs.org/
+263 silly mapToRegistry data Result {
+263 silly mapToRegistry   raw: 'is-arrayish',
+263 silly mapToRegistry   scope: null,
+263 silly mapToRegistry   escapedName: 'is-arrayish',
+263 silly mapToRegistry   name: 'is-arrayish',
+263 silly mapToRegistry   rawSpec: '',
+263 silly mapToRegistry   spec: 'latest',
+263 silly mapToRegistry   type: 'tag' }
+264 silly mapToRegistry uri https://registry.npmjs.org/is-arrayish
+265 verbose request uri https://registry.npmjs.org/is-arrayish
+266 verbose request no auth needed
+267 info attempt registry request try #1 at 1:55:24 PM
+268 verbose etag W/"582bc403-2281"
+269 verbose lastModified Wed, 16 Nov 2016 02:27:15 GMT
+270 http request GET https://registry.npmjs.org/is-arrayish
+271 http 304 https://registry.npmjs.org/is-arrayish
+272 verbose headers { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+272 verbose headers   via: '1.1 varnish',
+272 verbose headers   'cache-control': 'max-age=300',
+272 verbose headers   etag: 'W/"582bc403-2281"',
+272 verbose headers   age: '88',
+272 verbose headers   connection: 'keep-alive',
+272 verbose headers   'x-served-by': 'cache-ord1741-ORD',
+272 verbose headers   'x-cache': 'HIT',
+272 verbose headers   'x-cache-hits': '3',
+272 verbose headers   'x-timer': 'S1487789724.432829,VS0,VE0',
+272 verbose headers   vary: 'Accept-Encoding' }
+273 silly get cb [ 304,
+273 silly get   { date: 'Wed, 22 Feb 2017 18:55:24 GMT',
+273 silly get     via: '1.1 varnish',
+273 silly get     'cache-control': 'max-age=300',
+273 silly get     etag: 'W/"582bc403-2281"',
+273 silly get     age: '88',
+273 silly get     connection: 'keep-alive',
+273 silly get     'x-served-by': 'cache-ord1741-ORD',
+273 silly get     'x-cache': 'HIT',
+273 silly get     'x-cache-hits': '3',
+273 silly get     'x-timer': 'S1487789724.432829,VS0,VE0',
+273 silly get     vary: 'Accept-Encoding' } ]
+274 verbose etag https://registry.npmjs.org/is-arrayish from cache
+275 verbose get saving is-arrayish to /Users/lukeflynn/.npm/registry.npmjs.org/is-arrayish/.cache.json
+276 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+277 silly resolveWithNewModule is-arrayish@0.3.1 checking installable status
+278 silly cache add args [ 'is-arrayish@^0.3.1', null ]
+279 verbose cache add spec is-arrayish@^0.3.1
+280 silly cache add parsed spec Result {
+280 silly cache add   raw: 'is-arrayish@^0.3.1',
+280 silly cache add   scope: null,
+280 silly cache add   escapedName: 'is-arrayish',
+280 silly cache add   name: 'is-arrayish',
+280 silly cache add   rawSpec: '^0.3.1',
+280 silly cache add   spec: '>=0.3.1 <0.4.0',
+280 silly cache add   type: 'range' }
+281 silly addNamed is-arrayish@>=0.3.1 <0.4.0
+282 verbose addNamed ">=0.3.1 <0.4.0" is a valid semver range for is-arrayish
+283 silly addNameRange { name: 'is-arrayish', range: '>=0.3.1 <0.4.0', hasData: false }
+284 silly mapToRegistry name is-arrayish
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://registry.npmjs.org/
+287 silly mapToRegistry data Result {
+287 silly mapToRegistry   raw: 'is-arrayish',
+287 silly mapToRegistry   scope: null,
+287 silly mapToRegistry   escapedName: 'is-arrayish',
+287 silly mapToRegistry   name: 'is-arrayish',
+287 silly mapToRegistry   rawSpec: '',
+287 silly mapToRegistry   spec: 'latest',
+287 silly mapToRegistry   type: 'tag' }
+288 silly mapToRegistry uri https://registry.npmjs.org/is-arrayish
+289 verbose addNameRange registry:https://registry.npmjs.org/is-arrayish not in flight; fetching
+290 verbose get https://registry.npmjs.org/is-arrayish not expired, no request
+291 silly addNameRange number 2 { name: 'is-arrayish', range: '>=0.3.1 <0.4.0', hasData: true }
+292 silly addNameRange versions [ 'is-arrayish',
+292 silly addNameRange   [ '0.1.0', '0.1.1', '0.2.0', '0.2.1', '0.3.0', '0.3.1' ] ]
+293 silly addNamed is-arrayish@0.3.1
+294 verbose addNamed "0.3.1" is a plain semver version for is-arrayish
+295 silly cache afterAdd is-arrayish@0.3.1
+296 verbose afterAdd /Users/lukeflynn/.npm/is-arrayish/0.3.1/package/package.json not in flight; writing
+297 verbose correctMkdir /Users/lukeflynn/.npm correctMkdir not in flight; initializing
+298 verbose afterAdd /Users/lukeflynn/.npm/is-arrayish/0.3.1/package/package.json written
+299 silly loadAllDepsIntoIdealTree Finishing
+300 silly loadIdealTree Finishing
+301 silly currentTree hyper-plugins@0.0.1
+301 silly currentTree +-- base16@1.0.0
+301 silly currentTree +-- hyper-blink@1.1.2
+301 silly currentTree +-- hyperborder@0.9.2
+301 silly currentTree +-- hypersixteen@1.0.3
+301 silly currentTree +-- lodash.throttle@4.1.1
+301 silly currentTree +-- source-map-support@0.4.11
+301 silly currentTree `-- source-map@0.5.6
+302 silly idealTree hyper-plugins@0.0.1
+302 silly idealTree +-- base16@1.0.0
+302 silly idealTree +-- color-convert@1.9.0
+302 silly idealTree +-- color-name@1.1.1
+302 silly idealTree +-- color-string@1.4.0
+302 silly idealTree +-- color@1.0.3
+302 silly idealTree +-- hyper-blink@1.1.2
+302 silly idealTree +-- hyper-tabs-enhanced@0.4.0
+302 silly idealTree +-- hyperborder@0.9.2
+302 silly idealTree +-- hypersixteen@1.0.3
+302 silly idealTree +-- is-arrayish@0.3.1
+302 silly idealTree +-- lodash.throttle@4.1.1
+302 silly idealTree +-- simple-swizzle@0.2.2
+302 silly idealTree +-- source-map-support@0.4.11
+302 silly idealTree `-- source-map@0.5.6
+303 silly generateActionsToTake Starting
+304 silly install generateActionsToTake
+305 silly generateActionsToTake Finishing
+306 silly diffTrees action count 7
+307 silly diffTrees add color-name@1.1.1
+308 silly diffTrees add color-convert@1.9.0
+309 silly diffTrees add is-arrayish@0.3.1
+310 silly diffTrees add simple-swizzle@0.2.2
+311 silly diffTrees add color-string@1.4.0
+312 silly diffTrees add color@1.0.3
+313 silly diffTrees add hyper-tabs-enhanced@0.4.0
+314 silly decomposeActions action count 56
+315 silly decomposeActions fetch color-name@1.1.1
+316 silly decomposeActions extract color-name@1.1.1
+317 silly decomposeActions test color-name@1.1.1
+318 silly decomposeActions preinstall color-name@1.1.1
+319 silly decomposeActions build color-name@1.1.1
+320 silly decomposeActions install color-name@1.1.1
+321 silly decomposeActions postinstall color-name@1.1.1
+322 silly decomposeActions finalize color-name@1.1.1
+323 silly decomposeActions fetch color-convert@1.9.0
+324 silly decomposeActions extract color-convert@1.9.0
+325 silly decomposeActions test color-convert@1.9.0
+326 silly decomposeActions preinstall color-convert@1.9.0
+327 silly decomposeActions build color-convert@1.9.0
+328 silly decomposeActions install color-convert@1.9.0
+329 silly decomposeActions postinstall color-convert@1.9.0
+330 silly decomposeActions finalize color-convert@1.9.0
+331 silly decomposeActions fetch is-arrayish@0.3.1
+332 silly decomposeActions extract is-arrayish@0.3.1
+333 silly decomposeActions test is-arrayish@0.3.1
+334 silly decomposeActions preinstall is-arrayish@0.3.1
+335 silly decomposeActions build is-arrayish@0.3.1
+336 silly decomposeActions install is-arrayish@0.3.1
+337 silly decomposeActions postinstall is-arrayish@0.3.1
+338 silly decomposeActions finalize is-arrayish@0.3.1
+339 silly decomposeActions fetch simple-swizzle@0.2.2
+340 silly decomposeActions extract simple-swizzle@0.2.2
+341 silly decomposeActions test simple-swizzle@0.2.2
+342 silly decomposeActions preinstall simple-swizzle@0.2.2
+343 silly decomposeActions build simple-swizzle@0.2.2
+344 silly decomposeActions install simple-swizzle@0.2.2
+345 silly decomposeActions postinstall simple-swizzle@0.2.2
+346 silly decomposeActions finalize simple-swizzle@0.2.2
+347 silly decomposeActions fetch color-string@1.4.0
+348 silly decomposeActions extract color-string@1.4.0
+349 silly decomposeActions test color-string@1.4.0
+350 silly decomposeActions preinstall color-string@1.4.0
+351 silly decomposeActions build color-string@1.4.0
+352 silly decomposeActions install color-string@1.4.0
+353 silly decomposeActions postinstall color-string@1.4.0
+354 silly decomposeActions finalize color-string@1.4.0
+355 silly decomposeActions fetch color@1.0.3
+356 silly decomposeActions extract color@1.0.3
+357 silly decomposeActions test color@1.0.3
+358 silly decomposeActions preinstall color@1.0.3
+359 silly decomposeActions build color@1.0.3
+360 silly decomposeActions install color@1.0.3
+361 silly decomposeActions postinstall color@1.0.3
+362 silly decomposeActions finalize color@1.0.3
+363 silly decomposeActions fetch hyper-tabs-enhanced@0.4.0
+364 silly decomposeActions extract hyper-tabs-enhanced@0.4.0
+365 silly decomposeActions test hyper-tabs-enhanced@0.4.0
+366 silly decomposeActions preinstall hyper-tabs-enhanced@0.4.0
+367 silly decomposeActions build hyper-tabs-enhanced@0.4.0
+368 silly decomposeActions install hyper-tabs-enhanced@0.4.0
+369 silly decomposeActions postinstall hyper-tabs-enhanced@0.4.0
+370 silly decomposeActions finalize hyper-tabs-enhanced@0.4.0
+371 silly runTopLevelLifecycles Starting
+372 silly install runPreinstallTopLevelLifecycles
+373 silly preinstall hyper-plugins@0.0.1 /Users/lukeflynn/.hyper_plugins/hyper-plugins-ed1420e4
+374 info lifecycle hyper-plugins@0.0.1~preinstall: hyper-plugins@0.0.1
+375 silly lifecycle hyper-plugins@0.0.1~preinstall: no script for preinstall, continuing
+376 silly executeActions Starting
+377 silly install executeActions
+378 silly doSerial global-install 0
+379 silly doParallel fetch 7
+380 verbose correctMkdir /Users/lukeflynn/.npm/_locks correctMkdir not in flight; initializing
+381 verbose lock using /Users/lukeflynn/.npm/_locks/staging-e3e7aa942e85c412.lock for /Users/lukeflynn/.hyper_plugins/node_modules/.staging
+382 silly doParallel extract 7
+383 silly extract color-name@1.1.1
+384 silly extract color-convert@1.9.0
+385 silly extract is-arrayish@0.3.1
+386 silly extract simple-swizzle@0.2.2
+387 silly extract color-string@1.4.0
+388 silly extract color@1.0.3
+389 silly extract hyper-tabs-enhanced@0.4.0
+390 verbose unbuild node_modules/.staging/color-convert-d7b2b843
+391 verbose unbuild node_modules/.staging/color-name-6602c680
+392 verbose unbuild node_modules/.staging/simple-swizzle-a70de774
+393 verbose unbuild node_modules/.staging/is-arrayish-d04e0be4
+394 verbose unbuild node_modules/.staging/color-string-34f79d34
+395 verbose unbuild node_modules/.staging/color-6d67bcf3
+396 verbose unbuild node_modules/.staging/hyper-tabs-enhanced-ae82ef3d
+397 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-convert-d7b2b843 is being purged from base /Users/lukeflynn/.hyper_plugins
+398 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-convert-d7b2b843
+399 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-name-6602c680 is being purged from base /Users/lukeflynn/.hyper_plugins
+400 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-name-6602c680
+401 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/simple-swizzle-a70de774 is being purged from base /Users/lukeflynn/.hyper_plugins
+402 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/simple-swizzle-a70de774
+403 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/is-arrayish-d04e0be4 is being purged from base /Users/lukeflynn/.hyper_plugins
+404 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/is-arrayish-d04e0be4
+405 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-string-34f79d34 is being purged from base /Users/lukeflynn/.hyper_plugins
+406 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-string-34f79d34
+407 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-6d67bcf3 is being purged from base /Users/lukeflynn/.hyper_plugins
+408 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-6d67bcf3
+409 verbose tar unpack /Users/lukeflynn/.npm/color-convert/1.9.0/package.tgz
+410 verbose tar unpacking to /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-convert-d7b2b843
+411 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-convert-d7b2b843 is being purged
+412 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-convert-d7b2b843
+413 verbose tar unpack /Users/lukeflynn/.npm/color-name/1.1.1/package.tgz
+414 verbose tar unpacking to /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-name-6602c680
+415 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-name-6602c680 is being purged
+416 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-name-6602c680
+417 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/hyper-tabs-enhanced-ae82ef3d is being purged from base /Users/lukeflynn/.hyper_plugins
+418 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/hyper-tabs-enhanced-ae82ef3d
+419 verbose tar unpack /Users/lukeflynn/.npm/simple-swizzle/0.2.2/package.tgz
+420 verbose tar unpacking to /Users/lukeflynn/.hyper_plugins/node_modules/.staging/simple-swizzle-a70de774
+421 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/simple-swizzle-a70de774 is being purged
+422 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/simple-swizzle-a70de774
+423 verbose tar unpack /Users/lukeflynn/.npm/is-arrayish/0.3.1/package.tgz
+424 verbose tar unpacking to /Users/lukeflynn/.hyper_plugins/node_modules/.staging/is-arrayish-d04e0be4
+425 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/is-arrayish-d04e0be4 is being purged
+426 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/is-arrayish-d04e0be4
+427 verbose tar unpack /Users/lukeflynn/.npm/color-string/1.4.0/package.tgz
+428 verbose tar unpacking to /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-string-34f79d34
+429 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-string-34f79d34 is being purged
+430 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-string-34f79d34
+431 verbose tar unpack /Users/lukeflynn/.npm/color/1.0.3/package.tgz
+432 verbose tar unpacking to /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-6d67bcf3
+433 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-6d67bcf3 is being purged
+434 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-6d67bcf3
+435 silly gunzTarPerm modes [ '755', '644' ]
+436 silly gunzTarPerm modes [ '755', '644' ]
+437 verbose tar unpack /Users/lukeflynn/.npm/hyper-tabs-enhanced/0.4.0/package.tgz
+438 verbose tar unpacking to /Users/lukeflynn/.hyper_plugins/node_modules/.staging/hyper-tabs-enhanced-ae82ef3d
+439 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/hyper-tabs-enhanced-ae82ef3d is being purged
+440 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/hyper-tabs-enhanced-ae82ef3d
+441 silly gunzTarPerm modes [ '755', '644' ]
+442 silly gunzTarPerm modes [ '755', '644' ]
+443 silly gunzTarPerm modes [ '755', '644' ]
+444 silly gunzTarPerm modes [ '755', '644' ]
+445 silly gunzTarPerm modes [ '755', '644' ]
+446 silly gunzTarPerm extractEntry package.json
+447 silly gunzTarPerm extractEntry package.json
+448 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+449 silly gunzTarPerm extractEntry package.json
+450 silly gunzTarPerm extractEntry package.json
+451 silly gunzTarPerm extractEntry package.json
+452 silly gunzTarPerm extractEntry package.json
+453 silly gunzTarPerm extractEntry package.json
+454 silly gunzTarPerm extractEntry README.md
+455 silly gunzTarPerm extractEntry LICENSE
+456 silly gunzTarPerm extractEntry README.md
+457 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+458 silly gunzTarPerm extractEntry LICENSE
+459 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+460 silly gunzTarPerm extractEntry README.md
+461 silly gunzTarPerm extractEntry LICENSE
+462 silly gunzTarPerm extractEntry .npmignore
+463 silly gunzTarPerm extractEntry README.md
+464 silly gunzTarPerm extractEntry README.md
+465 silly gunzTarPerm extractEntry LICENSE
+466 silly gunzTarPerm extractEntry README.md
+467 silly gunzTarPerm extractEntry LICENSE
+468 silly gunzTarPerm extractEntry index.js
+469 silly gunzTarPerm extractEntry license
+470 silly gunzTarPerm extractEntry readme.md
+471 silly gunzTarPerm extractEntry index.js
+472 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+473 silly gunzTarPerm extractEntry conversions.js
+474 silly gunzTarPerm extractEntry index.js
+475 silly gunzTarPerm extractEntry route.js
+476 silly gunzTarPerm extractEntry CHANGELOG.md
+477 silly gunzTarPerm extractEntry index.js
+478 silly gunzTarPerm extractEntry CHANGELOG.md
+479 silly gunzTarPerm extractEntry LICENSE
+480 silly gunzTarPerm extractEntry index.js
+481 silly gunzTarPerm extractEntry index.js
+482 silly gunzTarPerm extractEntry index.js
+483 silly gunzTarPerm extractEntry .istanbul.yml
+484 silly gunzTarPerm extractEntry .editorconfig
+485 silly gunzTarPerm extractEntry .travis.yml
+486 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-name-6602c680/node_modules is being purged
+487 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-name-6602c680/node_modules
+488 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/simple-swizzle-a70de774/node_modules is being purged
+489 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/simple-swizzle-a70de774/node_modules
+490 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-6d67bcf3/node_modules is being purged
+491 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-6d67bcf3/node_modules
+492 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/hyper-tabs-enhanced-ae82ef3d/node_modules is being purged
+493 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/hyper-tabs-enhanced-ae82ef3d/node_modules
+494 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-string-34f79d34/node_modules is being purged
+495 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-string-34f79d34/node_modules
+496 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-convert-d7b2b843/node_modules is being purged
+497 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-convert-d7b2b843/node_modules
+498 silly gentlyRm /Users/lukeflynn/.hyper_plugins/node_modules/.staging/is-arrayish-d04e0be4/node_modules is being purged
+499 verbose gentlyRm don't care about contents; nuking /Users/lukeflynn/.hyper_plugins/node_modules/.staging/is-arrayish-d04e0be4/node_modules
+500 silly doParallel preinstall 7
+501 silly preinstall color-name@1.1.1 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-name-6602c680
+502 info lifecycle color-name@1.1.1~preinstall: color-name@1.1.1
+503 silly preinstall color-convert@1.9.0 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-convert-d7b2b843
+504 info lifecycle color-convert@1.9.0~preinstall: color-convert@1.9.0
+505 silly preinstall is-arrayish@0.3.1 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/is-arrayish-d04e0be4
+506 info lifecycle is-arrayish@0.3.1~preinstall: is-arrayish@0.3.1
+507 silly preinstall simple-swizzle@0.2.2 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/simple-swizzle-a70de774
+508 info lifecycle simple-swizzle@0.2.2~preinstall: simple-swizzle@0.2.2
+509 silly preinstall color-string@1.4.0 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-string-34f79d34
+510 info lifecycle color-string@1.4.0~preinstall: color-string@1.4.0
+511 silly preinstall color@1.0.3 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-6d67bcf3
+512 info lifecycle color@1.0.3~preinstall: color@1.0.3
+513 silly preinstall hyper-tabs-enhanced@0.4.0 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/hyper-tabs-enhanced-ae82ef3d
+514 info lifecycle hyper-tabs-enhanced@0.4.0~preinstall: hyper-tabs-enhanced@0.4.0
+515 silly lifecycle color-name@1.1.1~preinstall: no script for preinstall, continuing
+516 silly lifecycle color-convert@1.9.0~preinstall: no script for preinstall, continuing
+517 silly lifecycle is-arrayish@0.3.1~preinstall: no script for preinstall, continuing
+518 silly lifecycle simple-swizzle@0.2.2~preinstall: no script for preinstall, continuing
+519 silly lifecycle color-string@1.4.0~preinstall: no script for preinstall, continuing
+520 silly lifecycle color@1.0.3~preinstall: no script for preinstall, continuing
+521 silly lifecycle hyper-tabs-enhanced@0.4.0~preinstall: no script for preinstall, continuing
+522 silly doReverseSerial remove 0
+523 silly doSerial move 0
+524 silly doSerial finalize 7
+525 silly finalize /Users/lukeflynn/.hyper_plugins/node_modules/color-name
+526 silly finalize /Users/lukeflynn/.hyper_plugins/node_modules/color-convert
+527 silly finalize /Users/lukeflynn/.hyper_plugins/node_modules/is-arrayish
+528 silly finalize /Users/lukeflynn/.hyper_plugins/node_modules/simple-swizzle
+529 silly finalize /Users/lukeflynn/.hyper_plugins/node_modules/color-string
+530 silly finalize /Users/lukeflynn/.hyper_plugins/node_modules/color
+531 silly finalize /Users/lukeflynn/.hyper_plugins/node_modules/hyper-tabs-enhanced
+532 silly doSerial build 7
+533 silly build color-name@1.1.1
+534 info linkStuff color-name@1.1.1
+535 silly linkStuff color-name@1.1.1 has /Users/lukeflynn/.hyper_plugins/node_modules as its parent node_modules
+536 verbose linkBins color-name@1.1.1
+537 verbose linkMans color-name@1.1.1
+538 silly build color-convert@1.9.0
+539 info linkStuff color-convert@1.9.0
+540 silly linkStuff color-convert@1.9.0 has /Users/lukeflynn/.hyper_plugins/node_modules as its parent node_modules
+541 verbose linkBins color-convert@1.9.0
+542 verbose linkMans color-convert@1.9.0
+543 silly build is-arrayish@0.3.1
+544 info linkStuff is-arrayish@0.3.1
+545 silly linkStuff is-arrayish@0.3.1 has /Users/lukeflynn/.hyper_plugins/node_modules as its parent node_modules
+546 verbose linkBins is-arrayish@0.3.1
+547 verbose linkMans is-arrayish@0.3.1
+548 silly build simple-swizzle@0.2.2
+549 info linkStuff simple-swizzle@0.2.2
+550 silly linkStuff simple-swizzle@0.2.2 has /Users/lukeflynn/.hyper_plugins/node_modules as its parent node_modules
+551 verbose linkBins simple-swizzle@0.2.2
+552 verbose linkMans simple-swizzle@0.2.2
+553 silly build color-string@1.4.0
+554 info linkStuff color-string@1.4.0
+555 silly linkStuff color-string@1.4.0 has /Users/lukeflynn/.hyper_plugins/node_modules as its parent node_modules
+556 verbose linkBins color-string@1.4.0
+557 verbose linkMans color-string@1.4.0
+558 silly build color@1.0.3
+559 info linkStuff color@1.0.3
+560 silly linkStuff color@1.0.3 has /Users/lukeflynn/.hyper_plugins/node_modules as its parent node_modules
+561 verbose linkBins color@1.0.3
+562 verbose linkMans color@1.0.3
+563 silly build hyper-tabs-enhanced@0.4.0
+564 info linkStuff hyper-tabs-enhanced@0.4.0
+565 silly linkStuff hyper-tabs-enhanced@0.4.0 has /Users/lukeflynn/.hyper_plugins/node_modules as its parent node_modules
+566 verbose linkBins hyper-tabs-enhanced@0.4.0
+567 verbose linkMans hyper-tabs-enhanced@0.4.0
+568 silly doSerial global-link 0
+569 silly doParallel update-linked 0
+570 silly doSerial install 7
+571 silly install color-name@1.1.1 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-name-6602c680
+572 info lifecycle color-name@1.1.1~install: color-name@1.1.1
+573 silly lifecycle color-name@1.1.1~install: no script for install, continuing
+574 silly install color-convert@1.9.0 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-convert-d7b2b843
+575 info lifecycle color-convert@1.9.0~install: color-convert@1.9.0
+576 silly lifecycle color-convert@1.9.0~install: no script for install, continuing
+577 silly install is-arrayish@0.3.1 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/is-arrayish-d04e0be4
+578 info lifecycle is-arrayish@0.3.1~install: is-arrayish@0.3.1
+579 silly lifecycle is-arrayish@0.3.1~install: no script for install, continuing
+580 silly install simple-swizzle@0.2.2 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/simple-swizzle-a70de774
+581 info lifecycle simple-swizzle@0.2.2~install: simple-swizzle@0.2.2
+582 silly lifecycle simple-swizzle@0.2.2~install: no script for install, continuing
+583 silly install color-string@1.4.0 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-string-34f79d34
+584 info lifecycle color-string@1.4.0~install: color-string@1.4.0
+585 silly lifecycle color-string@1.4.0~install: no script for install, continuing
+586 silly install color@1.0.3 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-6d67bcf3
+587 info lifecycle color@1.0.3~install: color@1.0.3
+588 silly lifecycle color@1.0.3~install: no script for install, continuing
+589 silly install hyper-tabs-enhanced@0.4.0 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/hyper-tabs-enhanced-ae82ef3d
+590 info lifecycle hyper-tabs-enhanced@0.4.0~install: hyper-tabs-enhanced@0.4.0
+591 silly lifecycle hyper-tabs-enhanced@0.4.0~install: no script for install, continuing
+592 silly doSerial postinstall 7
+593 silly postinstall color-name@1.1.1 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-name-6602c680
+594 info lifecycle color-name@1.1.1~postinstall: color-name@1.1.1
+595 silly lifecycle color-name@1.1.1~postinstall: no script for postinstall, continuing
+596 silly postinstall color-convert@1.9.0 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-convert-d7b2b843
+597 info lifecycle color-convert@1.9.0~postinstall: color-convert@1.9.0
+598 silly lifecycle color-convert@1.9.0~postinstall: no script for postinstall, continuing
+599 silly postinstall is-arrayish@0.3.1 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/is-arrayish-d04e0be4
+600 info lifecycle is-arrayish@0.3.1~postinstall: is-arrayish@0.3.1
+601 silly lifecycle is-arrayish@0.3.1~postinstall: no script for postinstall, continuing
+602 silly postinstall simple-swizzle@0.2.2 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/simple-swizzle-a70de774
+603 info lifecycle simple-swizzle@0.2.2~postinstall: simple-swizzle@0.2.2
+604 silly lifecycle simple-swizzle@0.2.2~postinstall: no script for postinstall, continuing
+605 silly postinstall color-string@1.4.0 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-string-34f79d34
+606 info lifecycle color-string@1.4.0~postinstall: color-string@1.4.0
+607 silly lifecycle color-string@1.4.0~postinstall: no script for postinstall, continuing
+608 silly postinstall color@1.0.3 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/color-6d67bcf3
+609 info lifecycle color@1.0.3~postinstall: color@1.0.3
+610 silly lifecycle color@1.0.3~postinstall: no script for postinstall, continuing
+611 silly postinstall hyper-tabs-enhanced@0.4.0 /Users/lukeflynn/.hyper_plugins/node_modules/.staging/hyper-tabs-enhanced-ae82ef3d
+612 info lifecycle hyper-tabs-enhanced@0.4.0~postinstall: hyper-tabs-enhanced@0.4.0
+613 silly lifecycle hyper-tabs-enhanced@0.4.0~postinstall: no script for postinstall, continuing
+614 verbose unlock done using /Users/lukeflynn/.npm/_locks/staging-e3e7aa942e85c412.lock for /Users/lukeflynn/.hyper_plugins/node_modules/.staging
+615 silly executeActions Finishing
+616 silly rollbackFailedOptional Starting
+617 silly rollbackFailedOptional Finishing
+618 silly install runPostinstallTopLevelLifecycles
+619 silly build hyper-plugins@0.0.1
+620 info linkStuff hyper-plugins@0.0.1
+621 silly linkStuff hyper-plugins@0.0.1 has /Users/lukeflynn as its parent node_modules
+622 verbose linkBins hyper-plugins@0.0.1
+623 verbose linkMans hyper-plugins@0.0.1
+624 silly install hyper-plugins@0.0.1 /Users/lukeflynn/.hyper_plugins/hyper-plugins-ed1420e4
+625 info lifecycle hyper-plugins@0.0.1~install: hyper-plugins@0.0.1
+626 silly lifecycle hyper-plugins@0.0.1~install: no script for install, continuing
+627 silly postinstall hyper-plugins@0.0.1 /Users/lukeflynn/.hyper_plugins/hyper-plugins-ed1420e4
+628 info lifecycle hyper-plugins@0.0.1~postinstall: hyper-plugins@0.0.1
+629 silly lifecycle hyper-plugins@0.0.1~postinstall: no script for postinstall, continuing
+630 silly runTopLevelLifecycles Finishing
+631 silly install printInstalled
+632 verbose exit [ 0, true ]
+633 verbose stack Error: write EPIPE
+633 verbose stack     at exports._errnoException (util.js:1022:11)
+633 verbose stack     at WriteWrap.afterWrite (net.js:801:14)
+634 verbose cwd /Users/lukeflynn/.hyper_plugins
+635 error Darwin 16.4.0
+636 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--production"
+637 error node v6.9.2
+638 error npm  v3.10.9
+639 error code EPIPE
+640 error errno EPIPE
+641 error syscall write
+642 error write EPIPE
+643 error If you need help, you may report this error at:
+643 error     <https://github.com/npm/npm/issues>
+644 verbose exit [ 1, true ]
